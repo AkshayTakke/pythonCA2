@@ -3,9 +3,8 @@ from main import app
 
 from api import routes
 
-#app = Flask(__name__)
+# Create Restful API for Flask App
 api = Api(app)
-#mysql = DBConfig.config(app)
 
 routes(api)
 
